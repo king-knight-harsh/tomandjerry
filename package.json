@@ -1,9 +1,17 @@
 {
+  "name": "tomandjerry",
+  "version": "1.0.0",
+  "description": "3d tom and jerry game",
+  "main": "index.js",
+  "repository": "https://github.com/king-knight-harsh/tomandjerry.git",
+  "author": "Harsh <hsharma@mun.ca>",
+  "license": "MIT",
   "scripts": {
     "build": "vite build",
-    "dev": "vite"
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
+    "gh-pages": "^6.1.1",
     "three": "^0.163.0"
   },
   "devDependencies": {
